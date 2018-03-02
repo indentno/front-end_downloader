@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo ""
 echo "=> Cloning repository from Github"
 git clone git@github.com:Sempro/front-end_style_guide.git
@@ -29,14 +30,8 @@ nvm use
 
 echo ""
 echo "=> Installing packages"
-npm install jquery --save
-npm install popper.js --save
-npm install bootstrap@4.0.0 --save
-npm install laravel-mix --save-dev
-npm install cross-env --save-dev
-npm install stylelint --save-dev
-npm install stylelint-config-standard --save-dev
-npm install stylelint-order --save-dev
+npm install jquery popper.js bootstrap@4.0.0 --save
+npm install laravel-mix cross-env stylelint stylelint-config-standard stylelint-config-standard stylelint-order --save-dev
 
 echo ""
 echo "=> All done"
