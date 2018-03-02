@@ -26,6 +26,7 @@ rm -f bootstrap-grid-debug.css
 
 echo ""
 echo "=> Setting node version"
+. ~/.nvm/nvm.sh
 nvm use
 
 echo ""
