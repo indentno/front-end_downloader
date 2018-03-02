@@ -43,4 +43,4 @@ semproFrontendDownloader() {
  echo "=> All done"
 }
 
-alias front=semproFrontendDownloader
+semproFrontendDownloader
