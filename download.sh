@@ -7,6 +7,7 @@ echo ""
 echo "=> Extracting files"
 rsync -av front-end_style_guide/resources/assets resources
 mv front-end_style_guide/.stylelintrc ./
+mv front-end_style_guide/.eslintrc.js ./
 mv front-end_style_guide/.nvmrc ./
 if [ ! -f package.json ]; then
 mv front-end_style_guide/package.json ./
@@ -32,7 +33,7 @@ nvm use
 echo ""
 echo "=> Installing packages"
 npm install jquery popper.js bootstrap@4.0.0 --save
-npm install laravel-mix cross-env stylelint stylelint-config-standard stylelint-config-standard stylelint-order --save-dev
+npm install laravel-mix cross-env stylelint stylelint-config-standard stylelint-config-standard stylelint-order eslint eslint-plugin-import eslint-config-airbnb-base --save-dev
 
 echo ""
 echo "=> All done"
