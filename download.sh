@@ -33,7 +33,7 @@ nvm use
 echo ""
 echo "=> Installing packages"
 npm install jquery popper.js bootstrap@4.0.0 --save
-npm install laravel-mix cross-env stylelint stylelint-config-standard stylelint-config-standard stylelint-order eslint eslint-plugin-import eslint-config-airbnb-base --save-dev
+npm install laravel-mix cross-env stylelint stylelint-config-standard stylelint-order eslint eslint-plugin-import eslint-config-airbnb-base --save-dev
 
 echo ""
 echo "=> All done"
